@@ -35,4 +35,6 @@ public class DriverLicense {
 
     @OneToOne(mappedBy = "driverLicense")
     private User user;
+
+    //CAMBIO
 }
